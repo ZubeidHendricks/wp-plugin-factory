@@ -53,3 +53,13 @@ zip -r ../$slug.zip . -x '.git/*' '.wordpress-org/*' 'README.md' 'freemius-confi
 
 Submit 2–3 first (e.g. Duplicate Anything, Reading Time Plus, FAQ Accordion) to
 clear the manual author review, then the rest go faster.
+
+## Name-collision check (verified 2026-06-28)
+
+Ran `bin/check-names.php` against the wordpress.org API. All 12 slugs are now
+free. Two were renamed to avoid taken slugs:
+
+- `announcement-bar` → **`slim-announcement-bar`** ("Slim Announcement Bar")
+- `testimonials-slider` → **`simple-testimonials-slider`** ("Simple Testimonials Slider")
+
+Re-run `bin/check-names.php` before each submission in case a name gets taken.

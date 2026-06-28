@@ -56,14 +56,14 @@ Status legend: ✅ shipped · 🛠 in progress · ⬜ planned
 ## Content & display widgets
 41. ✅ FAQ Accordion (+ schema) — `wp-faq-accordion-block`
 42. ✅ Pricing Table — `wp-pricing-table-block`
-43. ✅ Testimonials Slider — `wp-testimonials-slider`
+43. ✅ Simple Testimonials Slider — `wp-simple-testimonials-slider`
 44. ⬜ Before/after image comparison
 45. ✅ Countdown Timer — `wp-countdown-timer-block`
 46. ⬜ Tabs / toggle block
 47. ⬜ Business hours / "open now"
 48. ⬜ Team / staff directory
 49. ⬜ Logo carousel
-50. ✅ Announcement Bar — `wp-announcement-bar`
+50. ✅ Slim Announcement Bar — `wp-slim-announcement-bar`
 
 ## Integrations & automation bridges
 51. ⬜ WP → Slack/Discord/Telegram

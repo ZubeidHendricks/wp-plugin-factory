@@ -60,14 +60,14 @@ tracks the visitor's real license. No per-plugin billing code.
 | Coming-Soon & Maintenance Mode | `wp-coming-soon-lite` | Admin workflow |
 | Disable Comments Clean | `wp-disable-comments-clean` | Admin workflow |
 | Reading Time Plus | `wp-reading-time-plus` | Content / SEO |
-| Announcement Bar | `wp-announcement-bar` | Content / display |
+| Slim Announcement Bar | `wp-slim-announcement-bar` | Content / display |
 | WhatsApp Chat Button | `wp-whatsapp-chat-button` | Integration |
 | Countdown Timer | `wp-countdown-timer-block` | Content / display |
 | FAQ Accordion | `wp-faq-accordion-block` | Content / SEO |
 | Redirect Manager | `wp-redirect-manager` | SEO / admin |
 | Cookie Consent Bar | `wp-cookie-consent-bar` | Marketing / legal |
 | Pricing Table | `wp-pricing-table-block` | Content / display |
-| Testimonials Slider | `wp-testimonials-slider` | Content / display |
+| Simple Testimonials Slider | `wp-simple-testimonials-slider` | Content / display |
 
 See [ROADMAP.md](ROADMAP.md) for all 100.
 
