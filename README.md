@@ -31,6 +31,22 @@ bin/new-plugin.sh "Reading Time Plus" reading-time-plus
 # → creates ../wp-reading-time-plus with core bundled, ready to push
 ```
 
+## Turn on monetization (per plugin)
+
+The core auto-activates Freemius the moment a plugin has both an SDK and a
+config — until then it runs free-only and nothing breaks. To go live:
+
+```bash
+cd ../wp-reading-time-plus
+../wp-plugin-factory/bin/add-freemius.sh        # vendors the Freemius SDK
+cp freemius-config.sample.php freemius-config.php
+# edit freemius-config.php → paste your Plugin ID + Public Key from
+# https://dashboard.freemius.com (create the product + a paid "Pro" plan first)
+```
+
+That's it. `ZubFactory_Upsell::is_pro()` (and every `{slug}_is_pro` gate) now
+tracks the visitor's real license. No per-plugin billing code.
+
 ## Shipped so far
 
 | Plugin | Repo | Category |
