@@ -54,23 +54,23 @@ Status legend: ✅ shipped · 🛠 in progress · ⬜ planned
 40. ⬜ Exit-intent popup
 
 ## Content & display widgets
-41. ⬜ Accordion / FAQ block (+ schema)
+41. ✅ FAQ Accordion (+ schema) — `wp-faq-accordion-block`
 42. ⬜ Pricing-table builder
 43. ⬜ Testimonials slider
 44. ⬜ Before/after image comparison
-45. ⬜ Countdown timer (evergreen + fixed)
+45. ✅ Countdown Timer — `wp-countdown-timer-block`
 46. ⬜ Tabs / toggle block
 47. ⬜ Business hours / "open now"
 48. ⬜ Team / staff directory
 49. ⬜ Logo carousel
-50. ⬜ Announcement bar / sticky bar
+50. ✅ Announcement Bar — `wp-announcement-bar`
 
 ## Integrations & automation bridges
 51. ⬜ WP → Slack/Discord/Telegram
 52. ⬜ WP → Airtable/Notion sync
 53. ⬜ Stripe payment button (non-Woo)
 54. ⬜ Mailchimp/ConvertKit signup
-55. ⬜ WhatsApp click-to-chat
+55. ✅ WhatsApp Chat Button — `wp-whatsapp-chat-button`
 56. ⬜ Google Reviews display
 57. ⬜ Currency switcher (live rates)
 58. ⬜ WP → Zapier/webhook hub

@@ -39,6 +39,10 @@ bin/new-plugin.sh "Reading Time Plus" reading-time-plus
 | Coming-Soon & Maintenance Mode | `wp-coming-soon-lite` | Admin workflow |
 | Disable Comments Clean | `wp-disable-comments-clean` | Admin workflow |
 | Reading Time Plus | `wp-reading-time-plus` | Content / SEO |
+| Announcement Bar | `wp-announcement-bar` | Content / display |
+| WhatsApp Chat Button | `wp-whatsapp-chat-button` | Integration |
+| Countdown Timer | `wp-countdown-timer-block` | Content / display |
+| FAQ Accordion | `wp-faq-accordion-block` | Content / SEO |
 
 See [ROADMAP.md](ROADMAP.md) for all 100.
 
