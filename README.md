@@ -13,7 +13,12 @@ freemium paywall are written **once**.
 core/factory-core.php   Shared mini-framework (bootstrap, settings, Pro gating)
 template/               Boilerplate plugin with {{TOKENS}}
 bin/new-plugin.sh       Generator: stamp a new plugin repo from the template
+bin/add-freemius.sh     Vendor the Freemius SDK into a plugin
+bin/test-plugins.php    WP stub harness: boot + render smoke test (needs php cli)
+bin/validate-readme.php Check every readme.txt against wordpress.org rules
+bin/generate-assets.php Generate icon + banner PNGs into each .wordpress-org/
 ROADMAP.md              The 100-plugin roadmap + status
+SUBMITTING.md           WordPress.org submission checklist
 ```
 
 ## Monetization model
