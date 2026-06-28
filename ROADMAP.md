@@ -45,18 +45,18 @@ Status legend: ✅ shipped · 🛠 in progress · ⬜ planned
 31. ⬜ Broken link checker (async)
 32. ⬜ Auto internal-linking
 33. ⬜ Schema / structured-data injector
-34. ⬜ Redirect manager (301/410)
+34. ✅ Redirect Manager — `wp-redirect-manager`
 35. ⬜ Open Graph / social meta editor
 36. ⬜ Table of contents generator
 37. ✅ Reading Time Plus — `wp-reading-time-plus`
 38. ⬜ UTM link builder + click tracker
-39. ⬜ Cookie consent / GDPR banner
+39. ✅ Cookie Consent Bar — `wp-cookie-consent-bar`
 40. ⬜ Exit-intent popup
 
 ## Content & display widgets
 41. ✅ FAQ Accordion (+ schema) — `wp-faq-accordion-block`
-42. ⬜ Pricing-table builder
-43. ⬜ Testimonials slider
+42. ✅ Pricing Table — `wp-pricing-table-block`
+43. ✅ Testimonials Slider — `wp-testimonials-slider`
 44. ⬜ Before/after image comparison
 45. ✅ Countdown Timer — `wp-countdown-timer-block`
 46. ⬜ Tabs / toggle block
