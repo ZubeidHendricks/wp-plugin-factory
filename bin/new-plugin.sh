@@ -39,6 +39,7 @@ render "$HERE/template/readme.txt"        > "$DEST/readme.txt"
 render "$HERE/template/uninstall.php"     > "$DEST/uninstall.php"
 render "$HERE/template/README.md"         > "$DEST/README.md"
 cp     "$HERE/template/freemius-config.sample.php" "$DEST/freemius-config.sample.php"
+cp     "$HERE/template/lemonsqueezy.sample.php"     "$DEST/lemonsqueezy.sample.php"
 cp     "$HERE/template/.gitignore"          "$DEST/.gitignore"
 cp     "$HERE/LICENSE"                       "$DEST/LICENSE"
 

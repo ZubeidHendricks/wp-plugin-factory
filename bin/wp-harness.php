@@ -53,7 +53,7 @@ function update_option( $k, $v, $a = null ) { $GLOBALS['__options'][ $k ] = $v; 
 function delete_option( $k ) { unset( $GLOBALS['__options'][ $k ] ); return true; }
 function register_setting( ...$a ) {}
 function settings_fields( ...$a ) {}
-function submit_button( ...$a ) { echo '<button>Save</button>'; }
+function submit_button( $text = 'Save Changes', ...$a ) { echo '<button>' . esc_html( $text ) . '</button>'; }
 function add_options_page( ...$a ) { return 'hook'; }
 
 /* --- escaping / i18n (identity) --- */
