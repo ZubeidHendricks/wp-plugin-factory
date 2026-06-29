@@ -75,6 +75,7 @@ function selected( $a, $b = true, $echo = true ) { $r = ( $a == $b ) ? ' selecte
 function sanitize_text_field( $s ) { return trim( strip_tags( (string) $s ) ); }
 function sanitize_textarea_field( $s ) { return trim( strip_tags( (string) $s ) ); }
 function sanitize_hex_color( $s ) { return preg_match( '/^#[0-9a-fA-F]{3,6}$/', (string) $s ) ? $s : ''; }
+function wp_unslash( $v ) { return is_array( $v ) ? array_map( 'wp_unslash', $v ) : stripslashes( (string) $v ); }
 function wp_strip_all_tags( $s ) { return trim( strip_tags( (string) $s ) ); }
 function wp_kses_post( $s ) { return $s; }
 function wpautop( $s ) { return '<p>' . $s . '</p>'; }
