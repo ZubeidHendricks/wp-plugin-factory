@@ -1,5 +1,7 @@
 # WP Plugin Factory
 
+🌐 **Browse & download all plugins → [zubeidhendricks.github.io/wp-plugins-site](https://zubeidhendricks.github.io/wp-plugins-site/)**
+
 A factory for shipping **100 simple, monetizable WordPress plugins** on a single
 shared core — the WordPress equivalent of an app-factory portfolio play.
 
